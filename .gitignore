@@ -1,10 +1,20 @@
-# Apple OS metadata
-.DS_Store
-._.DS_Store
-Thumbs.db
+/node_modules
+bower_components
+npm-debug.log
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+.idea
+*.iml
+Homestead.json
+Homestead.yaml
+.env
+.env.*.php
+.env.php
 
 bootstrap/compiled.php
-vendor
+
 build/logs
 build/coverage
 app/tests/_log
@@ -15,20 +25,6 @@ _ide_helper.php
 
 app/config/packages
 public/packages
-
-# dependencies directories
-node_modules
-bower_components
-npm-debug.log
-
-# API keys and secrets
-.env
-.env.*.php
-.env.php
-
-# editors
-.idea
-*.iml
 
 lib-cov
 *.seed
@@ -42,3 +38,8 @@ lib-cov
 pids
 logs
 results
+
+# Apple OS metadata
+.DS_Store
+._.DS_Store
+Thumbs.db
